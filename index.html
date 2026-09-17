@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
 </head>
 <body>
 
-    <h2>Đăng nhập</h2>
+    <h1>Login</h1>
 
     <form id="loginForm">
-        <input type="text" id="username" placeholder="Username" required>
-        <br><br>
+        <input
+            type="text"
+            id="username"
+            placeholder="Username"
+        >
 
-        <input type="password" id="password" placeholder="Password" required>
-        <br><br>
+        <input
+            type="password"
+            id="password"
+            placeholder="Password"
+        >
 
         <button type="submit">Login</button>
     </form>
 
-    <p id="result"></p>
+    <p id="message"></p>
 
     <script src="login.js"></script>
+
 </body>
 </html>
